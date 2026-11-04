@@ -1,0 +1,138 @@
+ <!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#050609">
+<title>PIXEL PROFILE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="stars"></div>
+
+<header class="topbar">
+  <a class="logo" href="#home">PIXEL<span>.</span></a>
+  <div class="status">● AVAILABLE FOR WORK</div>
+  <label class="upload-btn" for="photoInput">Ganti Foto</label>
+  <input id="photoInput" type="file" accept="image/*" hidden>
+</header>
+
+<main>
+<section class="page hero active" id="home">
+
+  <div class="hero-copy">
+    <p class="eyebrow">FRONTEND DEVELOPER ✦</p>
+    <h1>PIXEL<br><span>PROFILE</span></h1>
+
+    <p class="intro">
+      Membangun pengalaman digital dengan kreativitas,
+      teknologi, dan sentuhan futuristik.
+    </p>
+
+    <div class="contact-grid">
+      <span>✉ hello@pixelprofile.dev</span>
+      <span>⌖ Indonesia</span>
+      <span>⌘ Web Developer</span>
+      <span>✦ Creative Portfolio</span>
+    </div>
+
+    <a class="cta" href="#projects">JELAJAHI KARYA ↗</a>
+  </div>
+
+  <div class="portrait-wrap">
+    <div class="halo"></div>
+
+    <img id="portrait"
+    src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=900&q=90"
+    alt="Foto profil">
+
+    <canvas id="pixelCanvas"></canvas>
+
+    <div class="scanline"></div>
+
+    <p class="touch-hint">
+      SENTUH FOTO UNTUK PIXEL BURST
+    </p>
+  </div>
+
+</section>
+
+<section class="page content-page" id="about">
+  <p class="eyebrow">01 / ABOUT</p>
+  <h2>Tentang <span>Saya</span></h2>
+  <p class="section-text">
+    Saya adalah kreator digital yang tertarik pada desain
+    antarmuka, website modern, dan teknologi interaktif.
+  </p>
+  <div class="info-card">
+    <strong>FOCUS</strong>
+    <p>Web Design · Frontend Development · Creative Technology</p>
+  </div>
+</section>
+
+<section class="page content-page" id="projects">
+  <p class="eyebrow">02 / SELECTED WORK</p>
+  <h2>Proyek <span>Pilihan</span></h2>
+
+  <div class="cards">
+    <article>
+      <small>PROJECT 01</small>
+      <h3>Absenku</h3>
+      <p>Aplikasi absensi karyawan berbasis web.</p>
+    </article>
+
+    <article>
+      <small>PROJECT 02</small>
+      <h3>Pixel Profile</h3>
+      <p>Website portfolio dengan animasi interaktif.</p>
+    </article>
+
+    <article>
+      <small>PROJECT 03</small>
+      <h3>Digital Store</h3>
+      <p>Konsep toko online dan pengalaman belanja.</p>
+    </article>
+  </div>
+</section>
+
+<section class="page content-page" id="skills">
+  <p class="eyebrow">03 / TOOLKIT</p>
+  <h2>Skills <span>& Tools</span></h2>
+
+  <div class="skill-list">
+    <div><span>HTML5</span><b>90%</b><i style="--level:90%"></i></div>
+    <div><span>CSS3</span><b>85%</b><i style="--level:85%"></i></div>
+    <div><span>JavaScript</span><b>75%</b><i style="--level:75%"></i></div>
+    <div><span>UI Design</span><b>80%</b><i style="--level:80%"></i></div>
+  </div>
+</section>
+
+<section class="page content-page" id="contact">
+  <p class="eyebrow">04 / CONTACT</p>
+  <h2>Mari <span>Terhubung</span></h2>
+  <p class="section-text">
+    Punya ide atau proyek menarik? Mari kita wujudkan bersama.
+  </p>
+  <a class="cta" href="mailto:hello@pixelprofile.dev">
+    KIRIM EMAIL ↗
+  </a>
+</section>
+</main>
+
+<nav class="dock">
+  <a class="selected" href="#home">⌂ <span>Home</span></a>
+  <a href="#about">♙ <span>About</span></a>
+  <a href="#projects">▣ <span>Projects</span></a>
+  <a href="#skills">⌘ <span>Skills</span></a>
+  <a href="#contact">➤ <span>Contact</span></a>
+</nav>
+
+<footer>
+  © 2026 PIXEL PROFILE
+  <span>DESIGNED TO BE DIFFERENT</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
